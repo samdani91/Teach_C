@@ -15,10 +15,5 @@ int main()
         }
     }
 
-    printf("\n");
-    for(int i=0;text[i]!='\0';i++){
-        printf(text[i]);
-        //printf(" ");
-    }
     return 0;
 }
