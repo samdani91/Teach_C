@@ -20,11 +20,13 @@ int main()
     gets(apple_name);
     int i=0;
     while(*str[i][0]){
-        if(!strcmp(apple_name,str[i][0])){
+        if(!strcmp(apple_name,str[1][0])){
             printf("Color of the apple:%s\n",str[i][1]);
         }
         i++;
     }
+
+
 
     return 0;
 }
